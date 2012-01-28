@@ -1,0 +1,16 @@
+class Tweet
+  include MongoMapper::Document
+  
+  key :id_str, String :required => true
+	key	:texto, String :required	=> true
+	key :created_at, String :required => true
+	key :received_at, Integer :required => true
+	#key :show_id, ObjectId
+	
+	#many :shows
+	
+	#def find_by_show_id(self.)
+		
+	#end
+
+end
